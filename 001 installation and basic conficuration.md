@@ -1,5 +1,17 @@
 # Установка и базовыве настройки.
 
+<br>
+<br>
+
+[https://github.com/airbnb/javascript#types](https://github.com/airbnb/javascript#types)
+
+<br>
+<br>
+
+[https://eslint.org/docs/user-guide/getting-started](https://eslint.org/docs/user-guide/getting-started)
+
+<br>
+
 Первое что нужно сделать это инициализировать **npm**.
 
 ```shell
@@ -62,7 +74,7 @@ npm i --save-dev eslint-config-airbnb eslint-config-prettier eslint-plugin-html 
 ![](img/004.png)
 
 ```json
-{ "extends": "airbnb/base" }
+{ "extends": ["airbnb/base"] }
 ```
 
 Мы можем перечислять несколько конфигураций. Они будут расширять каждое друг за другом т.е. если у нас будет еще одна конфигурация она рассширит **airbnb**. В следующих уроках мы более подробно познакомимся с разделами **eslint**.
